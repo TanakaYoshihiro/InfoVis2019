@@ -62,7 +62,7 @@ function main()
         var face = new THREE.Face3( id[0], id[1], id[2] );
         geometry.faces.push( face );
     }
-    //Assign a color to each face.
+    //Assign a color to each face
     material.vertexColors = THREE.FaceColors;
     for ( var i = 0; i < nfaces; i++ )
     {
