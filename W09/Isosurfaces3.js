@@ -86,8 +86,6 @@ function Isosurfaces( volume, isovalue, screen )
     geometry.computeVertexNormals();
 
     material.color = materialcolor;
-
-
     return new THREE.Mesh( geometry, material );
 
 
